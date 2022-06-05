@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,40 @@
     <link rel="stylesheet" href="style.css">
     <title>Prímszám vizsgálat</title>
 </head>
-<body>
-    <h1 class="nagyszoveg">Prímszám vizsgálat</h1>
-    <br>
-    <h3 class="kisszoveg">Írj be egy számot és ez a nagyon okos program megmondja Neked, hogy prímszám-e avagy nem. </h3>
 
-    <form id="form">
-        <label for="" class="1szoveg">Ide írd a számot:</label>
-        <input class="mezo" type="text" id="fname" name="fname"><br>
+<body>
+    <div id="doboz1">
+        <h1>Prímszám vizsgálat</h1>
         <br>
-        <input class="gomb" type="submit" value="Számolj!">
-    </form>
+        <h3>Írj be egy számot és ez a nagyon okos program megmondja Neked, hogy prímszám-e avagy nem.
+        </h3>
+
+        <form id="form">
+            <label for="" class="szoveg">Ide írd a számot:</label>
+            <input class="mezo" type="text" id="fname" name="fname"><br>
+            <br>
+            <input class="gomb" type="submit" value="Számolj!">
+        </form>
+    </div>
+    <div id="doboz2">
+        <h2>A prímszám:</h2>
+        <br>
+        <h3>Definíció:</h3>
+        <p>Azokat a természetes számokat, amelyeknek pontosan két osztójuk van, prímszámoknak (vagy másképp
+            törzsszámoknak) nevezzük.
+            Az 1 és a 0 nem prímszámok, mert az 1-nek egy darab, a 0-nak pedig végtelen sok osztója van. A 2 a legkisebb
+            prímszám, egyben ő az egyetlen páros prímszám. Az első néhány prímszám: 2, 3, 5, 7, 11, 13, 17, 19, 23, 31,
+            37,….. </p>
+        <br>
+        <p>Már Eukleidész bebizonyította, hogy a prímszámok száma végtelen.
+
+            A törzsszám elnevezés arra utal, hogy a prímszámok a természetes számok “atomjai”, hiszen minden természetes
+            vagy prímszám, vagy felbontható prímszámok szorzatára. (Számelmélet alaptétele.)
+
+            Prímszámok fő tulajdonsága, hogy ha egy prímszám osztója egy szorzatnak, akkor osztója a szorzat valamelyik
+            tényezőjének.</p>
+            <img class="kep" src="primszamok.png" alt="prímszám táblázat">
+    </div>
 
 </body>
 

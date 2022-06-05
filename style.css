@@ -1,0 +1,45 @@
+body {
+    background-color: beige;
+}
+
+#doboz1 {
+    background-color: honeydew;
+    border-style: outset;
+    margin: 5px;
+    padding: 20px;
+}
+
+#doboz2 {
+    background-color: honeydew;
+    border-style: inset;
+    margin: 5px;
+    padding: 20px;
+}
+
+h1 {
+    text-decoration: overline;
+    font-family:"Courier New", monospace;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    font-family: "Georgia", Times, serif;
+}
+
+.szoveg {
+    font-family: "Georgia", Times, serif;
+}
+
+.kep {
+    
+}
+
+.gomb {
+    background-color: rgb(178, 232, 250);
+    padding: 10px 10px;
+    border-radius: 12px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
