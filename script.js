@@ -1,4 +1,5 @@
 let szamolas = function szamol (event) {
+    
     event.preventDefault();
 
     let sz = document.getElementById('fname').value;
@@ -12,25 +13,43 @@ let szamolas = function szamol (event) {
     let he = sz % 7
 
     if (k == 0) {
-        document.getElementById('megoldas').innerHTML = "Ez a szá prímszám."
+       if (k == 2) {
+            document.getElementById('megoldas').innerHTML = "Ez a szám prímszám."
+       } else{
+           document.getElementById('megoldas').innerHTML = "Ez a szám nem prímszám."
+       }
     } else {
         if (ha == 0) {
-            document.getElementById('megoldas').innerHTML = "Ez a szá prímszám."            
+            if (ha == 3) {
+                document.getElementById('megoldas').innerHTML = "Ez a szám prímszám."
+            } else{
+                document.getElementById('megoldas').innerHTML = "Ez a szám nem prímszám."          
+            }     
         } else {
             if (o == 0) {
-                document.getElementById('megoldas').innerHTML = "Ez a szá prímszám."
-            } else {
-                if (he == 7) {
-                    document.getElementById('megoldas').innerHTML = "Ez a szá prímszám."
+                if (o == 5) {
+                    document.getElementById('megoldas').innerHTML = "Ez a szám prímszám."
                 } else {
-                    document.getElementById('megoldas').innerHTML = "Ez a szá nem prímszám."
+                    document.getElementById('megoldas').innerHTML = "Ez a szám nem prímszám."
+                }
+            } else {
+                if (he == 0) {
+                    if (he == 7) {
+                        document.getElementById('megoldas').innerHTML = "Ez a szám prímszám."
+                    } else {
+                        document.getElementById('megoldas').innerHTML = "Ez a szám nem prímszám."
+                    }
+                } else {
+                    document.getElementById('megoldas').innerHTML = "Ez a szám prímszám."
                 }
             }
         }
     }
 
+    return false;
+
 }
 
-document.getElementById('szamol').addEventListener('click', szamolas)
+document.getElementsByClassName('gomb').addEventListener('click', szamolas)
 
 
