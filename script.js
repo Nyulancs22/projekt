@@ -1,4 +1,4 @@
-let szamolas = function szamol (event) {
+var szamolas = function szamol (event) {
     
     event.preventDefault();
 
@@ -15,7 +15,7 @@ let szamolas = function szamol (event) {
     if (k == 0) {
        if (k == 2) {
             document.getElementById('megoldas').innerHTML = "Ez a szám prímszám."
-       } else{
+       } else {
            document.getElementById('megoldas').innerHTML = "Ez a szám nem prímszám."
        }
     } else {
@@ -50,6 +50,6 @@ let szamolas = function szamol (event) {
 
 }
 
-document.getElementsByClassName('gomb').addEventListener('click', szamolas)
+document.getElementsByClassName('gomb').addEventListener('click', szamolas())
 
 
