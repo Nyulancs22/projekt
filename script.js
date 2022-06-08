@@ -12,18 +12,18 @@ let szamolas = function szamol (event) {
     let he = sz % 7
 
     if (k == 0) {
-        document.getElementById('megoldas').innerHTML = "Ez a szá prímszám."
+        document.getElementById('megoldas').innerHTML = "Ez a szám prímszám."
     } else {
         if (ha == 0) {
-            document.getElementById('megoldas').innerHTML = "Ez a szá prímszám."            
+            document.getElementById('megoldas').innerHTML = "Ez a szám prímszám."            
         } else {
             if (o == 0) {
-                document.getElementById('megoldas').innerHTML = "Ez a szá prímszám."
+                document.getElementById('megoldas').innerHTML = "Ez a szám prímszám."
             } else {
                 if (he == 7) {
-                    document.getElementById('megoldas').innerHTML = "Ez a szá prímszám."
+                    document.getElementById('megoldas').innerHTML = "Ez a szám prímszám."
                 } else {
-                    document.getElementById('megoldas').innerHTML = "Ez a szá nem prímszám."
+                    document.getElementById('megoldas').innerHTML = "Ez a szám nem prímszám."
                 }
             }
         }
